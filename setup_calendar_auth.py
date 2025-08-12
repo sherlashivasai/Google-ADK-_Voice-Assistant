@@ -16,8 +16,8 @@ from googleapiclient.discovery import build
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
 # Path for token storage
-TOKEN_PATH = Path(os.path.expanduser("~/.credentials/calendar_token.json"))
-CREDENTIALS_PATH = Path("credentials.json")
+TOKEN_PATH = Path(os.path.expanduser("~/.credentials/calendar_token_file.json"))
+CREDENTIALS_PATH = Path("your_credentials.json")
 
 
 def setup_oauth():
