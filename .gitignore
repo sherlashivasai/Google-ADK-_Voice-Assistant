@@ -67,7 +67,7 @@ instance/
 
 
 # Google Calendar
-.credentials/
+
 credentials.json
 
 # Scrapy stuff:
